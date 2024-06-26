@@ -1,0 +1,116 @@
+/* Estilos generales */
+h1 {
+    font-size: 2rem; /* Tamaño del título */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+}
+
+body {
+    font-family: "Arial", sans-serif; /* Fuente del cuerpo */
+    margin: 0;
+    padding: 0;
+    background-color: wheat; /* Color de fondo */
+    color: #000000; /* Color del texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #5BC0BE; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interior del encabezado */
+    text-align: center; /* Alineación centrada del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Tamaño del título */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+/* Estilos para el contenedor 'diseño' */
+.diseño {
+    width: 100%;
+    text-align: center;
+    background-color: #5BC0BE; /* Color de fondo azul */
+    padding: 20px;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para listas */
+ul {
+    font-size: 20px; /* Tamaño de fuente para listas */
+    list-style-type: none; /* Quita los estilos de viñeta de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+}
+
+/* Estilos para el menú */
+#menu {
+    background: linear-gradient(to bottom, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 50%, rgba(158, 255, 253, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    width: 100%; /* Ancho completo del contenedor */
+    height: 59px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    margin: 0 auto; /* Centra horizontalmente */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para la lista dentro del menú */
+#menu ul {
+    padding: 0; /* Elimina el relleno de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+}
+
+/* Estilos para cada ítem de la lista del menú */
+#menu ul li {
+    display: inline-block;
+    margin: 0 10px; /* Margen entre elementos del menú */
+}
+
+/* Estilos para los enlaces dentro del menú */
+#menu a {
+    color: black; /* Color del texto */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    padding: 15px 23px; /* Relleno interior de los enlaces */
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Estilos para el hover de los enlaces */
+#menu a:hover {
+    color: white; /* Color del texto en hover */
+    background-color: rgba(0, 0, 0, 0.2); /* Color de fondo en hover */
+}
+
+/* Animación definida */
+@keyframes ms {
+    0% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+/* Estilos para imágenes */
+img {
+    display: block; /* Hace que las imágenes sean bloques */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    max-width: 500px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilos para tablas */
+.tabla {
+    width: 200px;
+    height: auto;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Relleno interior */
+}
